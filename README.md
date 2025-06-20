@@ -1,2 +1,26 @@
-# FruitQuality-AI
-FruitQualityAI is a deep learning-based project that classifies fruit quality using Convolutional Neural Networks (CNN). Built with Python, TensorFlow, and OpenCV, it processes fruit images to detect freshness or spoilage. Ideal for smart farming and food quality control.
+# FruitQualityAI
+
+FruitQualityAI is a simple deep learning project for classifying fruit images as fresh or rotten using Convolutional Neural Networks (CNN). It demonstrates basic image classification using TensorFlow and OpenCV.
+
+## Technologies Used
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Train the model:
+   ```bash
+   python src/train_model.py
+   ```
+
+3. Predict a sample image:
+   ```bash
+   python src/predict_image.py
+   ```
